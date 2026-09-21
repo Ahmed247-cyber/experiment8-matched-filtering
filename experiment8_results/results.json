@@ -1,0 +1,120 @@
+{
+  "sps": 8,
+  "span_symbols": 10,
+  "rolloff": 0.35,
+  "rrc_taps": 81,
+  "tx_delay_samples": 40,
+  "rx_delay_samples": 40,
+  "total_cascade_delay_samples": 80,
+  "cascade_peak_index_samples": 80,
+  "delay_formula": "(len(h)-1)/2 + (len(h)-1)/2 = len(h)-1",
+  "detected_first_sample_index": 80,
+  "delay_removed_before_detection": true,
+  "noiseless_detection_ber_at_delay_removed": 0.0,
+  "timing_offsets_samples": [
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "timing_ber": [
+    0.2458,
+    0.0518,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0504,
+    0.2448
+  ],
+  "snr_grid_db": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+  ],
+  "eye_height": [
+    1.0892741268261639,
+    1.2449202158718609,
+    1.450964465260977,
+    1.5526376509664703,
+    1.6505033985940416,
+    1.712910816061397,
+    1.7696826192026252,
+    1.8200685554303075,
+    1.8537358854089963,
+    1.881760816887434,
+    1.9094901140969585
+  ],
+  "ber_vs_snr": [
+    0.0028,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "parameter_variations": [
+    {
+      "rolloff": 0.2,
+      "span": 10,
+      "delay_samples": 80,
+      "ber": 0.0
+    },
+    {
+      "rolloff": 0.35,
+      "span": 10,
+      "delay_samples": 80,
+      "ber": 0.0
+    },
+    {
+      "rolloff": 0.7,
+      "span": 10,
+      "delay_samples": 80,
+      "ber": 0.0
+    },
+    {
+      "rolloff": 0.35,
+      "span": 6,
+      "delay_samples": 48,
+      "ber": 0.0
+    },
+    {
+      "rolloff": 0.35,
+      "span": 10,
+      "delay_samples": 80,
+      "ber": 0.0
+    },
+    {
+      "rolloff": 0.35,
+      "span": 14,
+      "delay_samples": 112,
+      "ber": 0.0
+    }
+  ],
+  "multipath_channel": [
+    0.9,
+    0.0,
+    0.35,
+    0.0,
+    0.2
+  ]
+}
